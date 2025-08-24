@@ -1,7 +1,3 @@
-Com certeza\! Baseado nas imagens do fluxo de trabalho que você forneceu, preparei uma documentação completa em formato README para o seu projeto.
-
------
-
 # Projeto: Agente de Agendamento Inteligente
 
 Este projeto consiste em um sistema automatizado e inteligente para o agendamento de compromissos, construído em uma plataforma de automação de fluxos de trabalho (como o n8n). O agente é capaz de interagir com usuários por meio de texto e áudio, processar suas solicitações e gerenciar eventos diretamente em uma agenda do Google.
@@ -45,6 +41,7 @@ Este é o fluxo principal que lida com a interação do usuário.
 5.  **Uso das Ferramentas (MCP Client):** Para executar a solicitação, o agente de IA aciona a ferramenta apropriada do "MCP de Agendamento" (por exemplo, a ferramenta `criarEvento`).
 6.  **Envio da Resposta:** Com base no resultado da ação, o agente de IA formula uma resposta final (ex: "Confirmado\! Seu corte de cabelo está agendado para sexta-feira às 15h.") e a envia de volta ao usuário.
 
+-------
 ### 2\. Fluxo do MCP de Agendamento
 
 Este fluxo funciona como um backend de ferramentas que fica à disposição do agente principal.
