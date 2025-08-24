@@ -64,3 +64,4 @@ Este fluxo funciona como um backend de ferramentas que fica à disposição do a
       * Google Sheets API.
   * **API de Transcrição de Áudio (Speech-to-Text).**
   * **Webhook** para integração com sistemas de terceiros.
+<img width="1445" height="623" alt="Captura de tela 2025-08-24 134823" src="https://github.com/user-attachments/assets/5c0d5e30-5515-4ba4-a5fa-c32015ae67b0" />
