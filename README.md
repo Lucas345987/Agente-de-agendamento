@@ -40,6 +40,7 @@ Este é o fluxo principal que lida com a interação do usuário.
 4.  **AI Agent:** O texto da solicitação do usuário é enviado para o agente de IA. Este agente, equipado com memória e um conjunto de ferramentas, entende o que o usuário deseja (ex: "Quero marcar um corte de cabelo para sexta às 15h").
 5.  **Uso das Ferramentas (MCP Client):** Para executar a solicitação, o agente de IA aciona a ferramenta apropriada do "MCP de Agendamento" (por exemplo, a ferramenta `criarEvento`).
 6.  **Envio da Resposta:** Com base no resultado da ação, o agente de IA formula uma resposta final (ex: "Confirmado\! Seu corte de cabelo está agendado para sexta-feira às 15h.") e a envia de volta ao usuário.
+<img width="1676" height="560" alt="Captura de tela 2025-08-24 134840" src="https://github.com/user-attachments/assets/10273887-d1d7-472f-a816-2d87b656b713" />
 
 -------
 ### 2\. Fluxo do MCP de Agendamento
