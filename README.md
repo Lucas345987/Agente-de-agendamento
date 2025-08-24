@@ -2,7 +2,7 @@
 
 Este projeto consiste em um sistema automatizado e inteligente para o agendamento de compromissos, construído em uma plataforma de automação de fluxos de trabalho (como o n8n). O agente é capaz de interagir com usuários por meio de texto e áudio, processar suas solicitações e gerenciar eventos diretamente em uma agenda do Google.
 
-## 🚀 Sobre o Projeto
+## Sobre o Projeto
 
 O "Agente de Agendamento Inteligente" foi desenvolvido para otimizar e automatizar o processo de marcação de horários. Ele funciona como um assistente virtual que compreende as solicitações dos usuários, verifica informações sobre serviços e disponibilidades, e realiza ações como criar, consultar, atualizar ou deletar eventos.
 
@@ -11,7 +11,7 @@ A arquitetura é dividida em dois componentes principais:
 1.  **O Agente de Conversação Principal:** Responsável por receber e interpretar as mensagens do usuário.
 2.  **O MCP (Master Control Program) de Agendamento:** Um "cérebro" de ferramentas que executa as ações práticas no Google Calendar e Google Sheets.
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
   * **Comunicação Multicanal:** Recebe solicitações de usuários via Webhook, permitindo integração com diversas plataformas de mensagem (como WhatsApp, Telegram, etc.).
   * **Processamento de Texto e Áudio:** O agente é capaz de entender tanto mensagens de texto digitadas quanto mensagens de voz, que são automaticamente convertidas para texto.
@@ -24,7 +24,7 @@ A arquitetura é dividida em dois componentes principais:
       * Cancelar/deletar eventos (`DeletarEventor`).
   * **Consulta de Informações Dinâmicas:** Acessa uma planilha do Google Sheets (`Servicos`) para obter informações atualizadas sobre os serviços oferecidos, preços ou horários disponíveis, sem a necessidade de alterar o fluxo de trabalho.
 
-## ⚙️ Arquitetura e Fluxo de Trabalho
+## Arquitetura e Fluxo de Trabalho
 
 O sistema é modular, separando a lógica da conversa da execução das tarefas.
 
@@ -55,7 +55,7 @@ Este fluxo funciona como um backend de ferramentas que fica à disposição do a
       * **`DeletarEventor`:** Remove um evento da agenda.
       * **`Servicos`:** Conecta-se à API do Google Sheets para ler dados de uma planilha específica, como lista de serviços, durações e preços.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
   * **Plataforma de Automação:** n8n ou similar.
   * **Modelo de Linguagem (LLM):** `OpenRouter Chat`.
